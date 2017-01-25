@@ -1,0 +1,35 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- clean: ['~']
+
+- link:
+    ~/.atom/config.cson: atom/config.cson
+    ~/.atom/init.coffee: atom/init.coffee
+    ~/.atom/keymap.cson: atom/keymap.cson
+    ~/.atom/packages-install-list.txt: atom/packages-install-list.txt
+    ~/.atom/projects.cson: atom/projects.cson
+    ~/.atom/snippets.cson: atom/snippets.cson
+    ~/.atom/styles.less: atom/styles.less
+    ~/.config/compton.conf: config/compton.conf
+    ~/.config/dunst: config/dunst
+    ~/.config/fontconfig: config/fontconfig
+    ~/.config/nitrogen: config/nitrogen
+    ~/.config/ranger/rc.conf: config/ranger/rc.conf
+    ~/.i3: i3
+    ~/.oh-my-zsh/custom/fcote.zsh-theme: oh-my-zsh/custom/fcote.zsh-theme
+    ~/.oh-my-zsh/custom/git_custom.zsh: oh-my-zsh/custom/git_custom.zsh
+    ~/.oh-my-zsh/custom/plugins/fcote: oh-my-zsh/custom/plugins/fcote
+    ~/.scripts: scripts
+    ~/.tmuxinator: tmuxinator
+    ~/.ctags: ctags
+    ~/.gitconfig: gitconfig
+    ~/.gitignore: gitignore
+    # ~/.gtkrc-2.0.mine: gtkrc-2.0.mine
+    # ~/.scss-lint.yml: scss-lint.yml
+    # ~/.tmux.conf: tmux.conf
+    # ~/.xinitrc: xinitrc
+    ~/.Xresources: Xresources
+    ~/.zshrc: zshrc
