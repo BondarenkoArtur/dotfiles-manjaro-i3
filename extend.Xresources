@@ -1,11 +1,50 @@
-#if __has_include(".extend.Xresources")
-#include ".extend.Xresources"
-#endif
+! Themes
+*background:            #1f2126
+*foreground:            #5F6B85
+*fading:                15
+*fadeColor:             black
+*cursorColor:           #5F6B85
+*pointerColorBackground:#2B2C2B
+*pointerColorForeground:#16A085
 
-! ^ The above lines are no comments!
-! Leave them as they are if a file ~/.extend.Xresources is being used on your system.
-! config can be added there or also here below.
-! For comments use "!"
+!! black dark/light
+*color0:                #000000
+*color8:                #1f2126
+
+!! red dark/light
+*color1:                #E06C75
+*color9:                #E06C75
+
+!! green dark/light
+*color2:                #98C379
+*color10:               #98C379
+
+!! yellow dark/light
+*color3:                #E5C07B
+*color11:               #E5C07B
+
+!! blue dark/light
+*color4:                #56B6C2
+*color12:               #56B6C2
+
+!! cyan dark/light
+*color6:                #61AEEE
+*color14:               #61AEEE
+
+!! white dark/light
+*color7:                #5F6B85
+*color15:               #FFFFFF
+
+! Xcursor
+Xcursor.theme: Breeze
+Xcursor.size:  0
+
+! Xterm
+XTerm*background: #1f2126
+XTerm*foreground: #5F6B85
+XTerm*reverseVideo: on
+XTerm*faceName: Terminus:size=11:antialias=true
+XTerm*selectToClipboard: true
 
 ! XFT
 Xft.dpi:        96
@@ -38,16 +77,16 @@ rofi.eh:                             1
 
 
 ! URXVT
-URxvt.font:                xft:Operator Mono Medium:style=Regular;size=12
-URxvt.boldFont:            xft:Operator Mono Bold:style=Bold:size=12
-URxvt.italicFont:          xft:Operator Mono Medium:style=Italic:size=12:italic
-URxvt.boldItalicFont:      xft:Operator Mono Bold:style=Italic:size=12:italic
-URxvt.letterSpace:         -1
+URxvt*font:                xft:Operator Mono Medium:style=Regular;size=12
+URxvt*boldFont:            xft:Operator Mono Bold:style=Bold:size=12
+URxvt*italicFont:          xft:Operator Mono Medium:style=Italic:size=12:italic
+URxvt*boldItalicFont:      xft:Operator Mono Bold:style=Italic:size=12:italic
+URxvt*letterSpace:         -1
 
 URxvt*boldMode:                      on
 URxvt*depth: 32
 
-urxvt*background:                     rgba:1F00/2100/2600/DD00
+URxvt*background:                     #1F2126
 URxvt*foreground:                     #abb2bf
 URxvt*cursorColor:                    #abb2bf
 
@@ -83,6 +122,9 @@ URxvt.internalBorder:      5
 URxvt.externalBorder:      0
 
 URxvt.scrollBar:           false
+URxvt*mouseWheelScrollPage:           false
+URxvt*cursorBlink:                    true
+URxvt*saveLines:                      5000
 
 URxvt*fading:              20
 
@@ -91,11 +133,3 @@ URxvt.colorUL:             #81a2be
 
 URxvt.iso14755: false
 URxvt.iso14755_52: false
-
-
-! XTERM
-Xterm*background: #2b2b2b
-Xterm*foreground: #e7e7e7
-Xterm*pointerColor: #16A085
-Xterm*faceName: Fixed
-Xterm*faceSize: 11
