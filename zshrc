@@ -41,6 +41,8 @@ source $ZSH/custom git_custom.zsh
 # antigen bundle zsh-users/zsh-autosuggestions
 # antigen bundle tarrasch/zsh-autoenv
 
+# fix "xdg-open fork-bomb" export your preferred browser from here
+export BROWSER=/usr/bin/google-chrome-stable
 
 
 # -----------------------------------------

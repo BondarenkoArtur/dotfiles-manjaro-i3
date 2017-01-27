@@ -84,7 +84,8 @@
     i3bar_command i3bar -t
     status_command i3blocks -c ~/.i3/i3blocks.conf
     position top
-    font pango: FontAwesome 9, Droid Sans Bold 10
+    # font xft:FontAwesome 9, Droid Sans Bold 10
+    font xft:FontAwesome 9, Charlevoix Pro Medium 10
     strip_workspace_numbers yes
     tray_output DP-0 
     tray_output DP-1
@@ -99,13 +100,13 @@
     #bindsym button5 nop
     colors {
       background $bg
-      separator $bglight
+      separator  $bglight
       statusline $fglight
                        # border   background text
-      focused_workspace  $bgtrans $bgtrans   $white
-      active_workspace   $bgtrans $bgtrans   $fg
-      inactive_workspace $bgtrans $bgtrans   $fg
-      urgent_workspace   $bgtrans $bgtrans   $red
+      focused_workspace  $bg      $bg        $white
+      active_workspace   $bg      $bg        $fg
+      inactive_workspace $bg      $bg        $fg
+      urgent_workspace   $bg      $bg        $red
       binding_mode       $red     $red       $white
     }
   }
@@ -208,7 +209,7 @@
 ### 
   assign [class="Firefox"] $ws2
   assign [class="Chromium"] $ws2
-  assign [class="Gedit"] $ws3
+  assign [class="Google-chrome"] $ws2
   assign [class="Atom"] $ws3
   assign [class="wmail"] $ws4
   assign [class="pamac-manager"] $ws10
@@ -315,9 +316,6 @@
   
   # New Terminal
   bindsym $mod+Return exec terminal
-  
-  # New Terminal to the scratchpad
-  bindsym $mod+Shift+Return exec --no-startup-id $editor --name __scratchpad
   
   # Move current window to the scratchpad
   bindsym $mod+Shift+minus move scratchpad
@@ -485,7 +483,7 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 # exec --no-startup-id blueman
 # exec_always --no-startup-id sbxkb
-exec --no-startup-id start_conky_maia
+# exec --no-startup-id start_conky_maia
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec --no-startup-id dropbox start
 exec --no-startup-id wine "C:\Program Files (x86)\1Password 4\Agile1pAgent.exe"
