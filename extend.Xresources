@@ -58,7 +58,7 @@ Xft.rgba:       rgb
 
 ! ROFI
 !rofi.dpi:                            168
-rofi.dpi:                            94
+rofi.dpi:                            96
 rofi.color-enabled:                  true
 rofi.color-window:                   argb:DD1f2126, argb:DD404452, #404452
 rofi.color-normal:                   argb:00000000, #5F6B85, argb:00000000, #404452, #95A2BB

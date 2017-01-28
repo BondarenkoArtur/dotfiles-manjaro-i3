@@ -335,7 +335,7 @@
   
   # Start Applications
   bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-  bindsym $mod+F2 exec chrome
+  bindsym $mod+F2 exec google-chrome-stable
   bindsym $mod+F3 exec pcmanfm
   # bindsym $mod+F3 exec ranger
   bindsym $mod+Shift+F3 exec gksu pcmanfm
