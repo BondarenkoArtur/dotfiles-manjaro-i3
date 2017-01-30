@@ -1,12 +1,14 @@
 # -----------------------------------------
 # PATHS
 # -----------------------------------------
-# Zsh
-export PATH="$ZSH/bin:$PATH"
+# Zsh adn .dotfiles bin
+export PATH="$ZSH/bin:/home/fcote/.dotfiles/bin:/home/fcote/.dotfiles/bin_private:$PATH"
 # /usr/local
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 # npm
 export PATH="/usr/local/share/npm/bin:$PATH"
+# pyenv
+export PATH="/home/fcote/.pyenv/bin:$PATH"
 # Man Paths
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 
@@ -63,6 +65,12 @@ add-zsh-hook chpwd load-nvmrc
 
 # nvm autocompletion
 [[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion
+
+# -----------------------------------------
+# PYENV
+# -----------------------------------------
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 # -----------------------------------------
 # RBENV

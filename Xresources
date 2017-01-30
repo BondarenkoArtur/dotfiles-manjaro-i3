@@ -1,3 +1,12 @@
+#if __has_include(".extend.Xresources")
+#include ".extend.Xresources"
+#endif
+
+! ^ The above lines are no comments!
+! Leave them as they are if a file ~/.extend.Xresources is being used on your system.
+! config can be added there or also here below.
+! For comments use "!"
+
 ! Themes
 *background:            #1f2126
 *foreground:            #5F6B85
@@ -35,10 +44,6 @@
 *color7:                #5F6B85
 *color15:               #FFFFFF
 
-! Xcursor
-Xcursor.theme: Breeze
-Xcursor.size:  0
-
 ! Xterm
 XTerm*background: #1f2126
 XTerm*foreground: #5F6B85
@@ -54,26 +59,6 @@ Xft.autohint:   false
 Xft.hintstyle:  hintslight
 Xft.lcdfilter:  lcddefault
 Xft.rgba:       rgb
-
-
-! ROFI
-!rofi.dpi:                            168
-rofi.dpi:                            96
-rofi.color-enabled:                  true
-rofi.color-window:                   argb:DD1f2126, argb:DD404452, #404452
-rofi.color-normal:                   argb:00000000, #5F6B85, argb:00000000, #404452, #95A2BB
-rofi.color-active:                   #1f2126, #61AEEE, #1f2126, #404452, #61AEEE
-rofi.color-urgent:                   #1f2126, #E06C75, #1f2126, #404452, #E06C75
-rofi.bw:                             0
-rofi.width:                          50n
-rofi.padding:                        300
-rofi.fullscreen:                     true
-rofi.fixed-num-lines:                true
-rofi.lines:                          10
-rofi.line-margin:                    8
-rofi.separator-style:                solid
-rofi.font:                           Droid Sans 18
-rofi.eh:                             1
 
 
 ! URXVT

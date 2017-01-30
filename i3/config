@@ -213,6 +213,7 @@
   assign [class="Atom"] $ws3
   assign [class="wmail"] $ws4
   assign [class="pamac-manager"] $ws10
+  assign [title='ranger'] $ws5
   # Spotify class assignement bugs forces me to move window instead
   for_window [class="Spotify"] move to workspace $ws8
   for_window [class="Slack"] move to workspace $ws9
@@ -329,7 +330,7 @@
 ### 
   
   # start program launcher
-  bindsym $mod+d exec --no-startup-id dmenu_recency
+  bindsym $mod+d exec --no-startup-id rofi -show run
   # launch categorized menu
   bindsym $mod+z exec --no-startup-id morc_menu
   
@@ -337,8 +338,8 @@
   bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
   bindsym $mod+F2 exec google-chrome-stable
   bindsym $mod+F3 exec pcmanfm
-  # bindsym $mod+F3 exec ranger
   bindsym $mod+Shift+F3 exec gksu pcmanfm
+  bindsym $mod+F4 exec terminal -e 'ranger'
   bindsym $mod+F5 exec terminal -e 'mocp'
   bindsym $mod+t exec --no-startup-id pkill compton
   bindsym $mod+Ctrl+t exec --no-startup-id compton -b
@@ -487,6 +488,7 @@ exec --no-startup-id clipit
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec --no-startup-id dropbox start
 exec --no-startup-id wine "C:\Program Files (x86)\1Password 4\Agile1pAgent.exe"
+exec --no-startup-id fluxgui
 exec_always --no-startup-id fix_xcursor
 
 
@@ -495,9 +497,9 @@ exec_always --no-startup-id fix_xcursor
 ################################################################################################
 
 exec --no-startup-id volumeicon
-bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
-#exec --no-startup-id pulseaudio
+#bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
+exec --no-startup-id pulseaudio
 #exec --no-startup-id pa-applet
-#bindsym $mod+Ctrl+m exec pavucontrol
+bindsym $mod+Ctrl+m exec pavucontrol
 
 ################################################################################################
