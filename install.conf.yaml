@@ -20,6 +20,7 @@
     ~/.config/mimeapps.list: config/mimeapps.list
     ~/.config/ranger/rc.conf: config/ranger/rc.conf
     ~/.config/rofi: config/rofi
+    ~/.config/polybar: config/polybar
     ~/.i3: i3
     ~/.localrc: localrc
     ~/.oh-my-zsh/custom/fcote.zsh-theme: oh-my-zsh/custom/fcote.zsh-theme
@@ -39,6 +40,7 @@
     ~/.zshrc: zshrc
 
 - shell:
+  - chmod +x bin/* bin_private/* i3/blocks/*
   - chmod +x bin/* bin_private/* i3/blocks/*
   - chmod +x oh-my-zsh/custom/plugins/fcote/bin/*
   - chmod +x oh-my-zsh/custom/plugins/fcote/bin/lib/*

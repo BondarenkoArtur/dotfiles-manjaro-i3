@@ -5,9 +5,9 @@ rofi.color-normal:                   argb:00000000, #5F6B85, argb:00000000, #404
 rofi.color-active:                   #1f2126, #61AEEE, #1f2126, #404452, #61AEEE
 rofi.color-urgent:                   #1f2126, #E06C75, #1f2126, #404452, #E06C75
 rofi.bw:                             0
-rofi.width:                          50n
-rofi.padding:                        300
-rofi.fullscreen:                     true
+rofi.width:                          60n
+rofi.padding:                        70
+rofi.fullscreen:                     false
 rofi.fixed-num-lines:                true
 rofi.lines:                          10
 rofi.line-margin:                    8
