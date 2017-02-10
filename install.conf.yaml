@@ -39,7 +39,7 @@
     # ~/.scss-lint.yml: scss-lint.yml
     # ~/.tmux.conf: tmux.conf
     # ~/.xinitrc: xinitrc
-    ~/.Xresources: Xresources
+    ~/.extend.Xresources: extend.Xresources
     ~/.xinitrc: xinitrc
     ~/.zshrc: zshrc
 

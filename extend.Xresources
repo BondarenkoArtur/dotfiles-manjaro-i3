@@ -1,12 +1,3 @@
-#if __has_include(".extend.Xresources")
-#include ".extend.Xresources"
-#endif
-
-! ^ The above lines are no comments!
-! Leave them as they are if a file ~/.extend.Xresources is being used on your system.
-! config can be added there or also here below.
-! For comments use "!"
-
 ! Themes
 *background:            #1f2126
 *foreground:            #5F6B85
@@ -44,6 +35,10 @@
 *color7:                #5F6B85
 *color15:               #FFFFFF
 
+! Xcursor
+Xcursor.theme: OpenZone_Black_Slim
+Xcursor.size:  0
+
 ! Xterm
 XTerm*background: #1f2126
 XTerm*foreground: #5F6B85
@@ -60,12 +55,11 @@ Xft.hintstyle:  hintslight
 Xft.lcdfilter:  lcddefault
 Xft.rgba:       rgb
 
-
 ! URXVT
-URxvt*font:                xft:Operator Mono Medium:style=Regular;size=12
-URxvt*boldFont:            xft:Operator Mono Bold:style=Bold:size=12
-URxvt*italicFont:          xft:Operator Mono Medium:style=Italic:size=12:italic
-URxvt*boldItalicFont:      xft:Operator Mono Bold:style=Italic:size=12:italic
+URxvt*font:                xft:Operator Mono Medium:style=Regular;size=14
+URxvt*boldFont:            xft:Operator Mono Bold:style=Bold:size=14
+URxvt*italicFont:          xft:Operator Mono Medium:style=Italic:size=14:italic
+URxvt*boldItalicFont:      xft:Operator Mono Bold:style=Italic:size=14:italic
 URxvt*letterSpace:         -1
 
 URxvt*boldMode:                      on
