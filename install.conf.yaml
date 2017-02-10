@@ -18,7 +18,11 @@
     ~/.config/fontconfig: config/fontconfig
     ~/.config/nitrogen: config/nitrogen
     ~/.config/mimeapps.list: config/mimeapps.list
+    ~/.config/ranger/commands_full.py: config/ranger/commands_full.py
+    ~/.config/ranger/commands.py: config/ranger/commands.py
     ~/.config/ranger/rc.conf: config/ranger/rc.conf
+    ~/.config/ranger/rifle.conf: config/ranger/rifle.conf
+    ~/.config/ranger/scope.sh: config/ranger/scope.sh
     ~/.config/rofi: config/rofi
     ~/.config/polybar: config/polybar
     ~/.i3: i3

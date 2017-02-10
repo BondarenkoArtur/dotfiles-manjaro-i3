@@ -69,7 +69,6 @@ URxvt*boldItalicFont:      xft:Operator Mono Bold:style=Italic:size=12:italic
 URxvt*letterSpace:         -1
 
 URxvt*boldMode:                      on
-URxvt*depth: 32
 
 URxvt*background:                     #1F2126
 URxvt*foreground:                     #abb2bf
