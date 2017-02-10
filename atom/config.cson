@@ -49,7 +49,7 @@
     backUpBeforeSaving: true
     confirmCheckoutHeadRevision: false
     fontFamily: "Operator Mono Medium"
-    fontSize: 15
+    fontSize: 17
     invisibles: {}
     scrollSensitivity: 60
     showIndentGuide: true
