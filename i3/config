@@ -210,7 +210,7 @@
   assign [class="Firefox"] $ws1
   assign [class="Chromium"] $ws1
   assign [class="Google-chrome"] $ws1
-  assign [class="Atom"] $ws2
+  assign [class="Code"] $ws2
   assign [class="wmail"] $ws4
   assign [class="pamac-manager"] $ws10
   assign [title='ranger'] $ws5
@@ -339,8 +339,8 @@
   # Start Applications
   bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
   bindsym $mod+F2 exec google-chrome-stable
-  bindsym $mod+F3 exec atom
-  bindsym $mod+ShiftF3 exec gksu atom
+  bindsym $mod+F3 exec code
+  bindsym $mod+ShiftF3 exec gksu code
   bindsym $mod+F5 exec terminal -e 'ranger'
   bindsym $mod+Shift+F5 exec gksu pcmanfm
   bindsym $mod+F8 exec spotify

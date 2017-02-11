@@ -13,6 +13,7 @@
     ~/.atom/projects.cson: atom/projects.cson
     ~/.atom/snippets.cson: atom/snippets.cson
     ~/.atom/styles.less: atom/styles.less
+    ~/.config/Code/User/settings.json: config/Code/User/settings.json
     ~/.config/compton.conf: config/compton.conf
     ~/.config/dunst: config/dunst
     ~/.config/fontconfig: config/fontconfig
