@@ -9,6 +9,7 @@
 	ui = true
 [core]
 	editor = vi
+	excludesfile = ~/.gitignore
 [apply]
 	whitespace = nowarn
 [help]

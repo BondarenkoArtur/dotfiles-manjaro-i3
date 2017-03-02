@@ -4,5 +4,35 @@
 		"rootPath": "$home/.dotfiles",
 		"paths": [],
 		"group": ""
+	},
+	{
+		"name": "rocketstock",
+		"rootPath": "$home/Code/rocketstock",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "footage",
+		"rootPath": "$home/Code/php-shutterstock-footage",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "Mason",
+		"rootPath": "$home/Code/shutterstock-mason",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "Notes",
+		"rootPath": "$home/GDrive/Notes",
+		"paths": [],
+		"group": ""
+	},
+	{
+		"name": "shutterstock-premier",
+		"rootPath": "$home/Code/shutterstock-premier",
+		"paths": [],
+		"group": ""
 	}
 ]

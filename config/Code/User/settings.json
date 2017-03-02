@@ -2,5 +2,17 @@
     "editor.fontSize": 17,
     "editor.fontFamily": "'Operator Mono Medium', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
     "fontshortcuts.defaultFontSize": 17,
-    "terminal.integrated.fontSize": 17
+    "terminal.integrated.fontSize": 17,
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true
+    },
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "php.suggest.basic": false,
+    "window.zoomLevel": 0,
+    "editor.scrollBeyondLastLine": false,
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vscode-great-icons"
 }
