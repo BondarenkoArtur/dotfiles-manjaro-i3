@@ -27,6 +27,7 @@
     ~/.config/ranger/scope.sh: config/ranger/scope.sh
     ~/.config/rofi: config/rofi
     ~/.config/polybar: config/polybar
+    ~/.config/redshift.conf: config/redshift.conf
     ~/.i3: i3
     ~/.localrc: localrc
     ~/.oh-my-zsh/custom/fcote.zsh-theme: oh-my-zsh/custom/fcote.zsh-theme
