@@ -57,9 +57,9 @@ Xft.rgba:       rgb
 
 ! URXVT
 URxvt*font:                xft:Operator Mono Medium:style=Regular;size=14
-URxvt*boldFont:            xft:Operator Mono Bold:style=Bold:size=14
-URxvt*italicFont:          xft:Operator Mono Medium:style=Italic:size=14:italic
-URxvt*boldItalicFont:      xft:Operator Mono Bold:style=Italic:size=14:italic
+URxvt*boldFont:            xft:Operator Mono:style=Bold:size=14
+URxvt*italicFont:          xft:Operator Mono Medium:style=Italic:size=14
+URxvt*boldItalicFont:      xft:Operator Mono:style=Italic:size=14
 URxvt*letterSpace:         -1
 
 URxvt*boldMode:                      on

@@ -213,6 +213,7 @@
   assign [class="Code"] $ws2
   assign [class="wmail"] $ws4
   assign [class="pamac-manager"] $ws10
+  assign [class="pamac-updater"] $ws10
   assign [title='ranger'] $ws5
   assign [class="Slack"] $ws9
   assign [class="discord"] $ws9
@@ -291,6 +292,8 @@
   for_window [class="Oblogout"] fullscreen enable
   for_window [class="octopi"] floating enable
   for_window [class="Pamac-manager"] floating enable
+  for_window [class="Pamac-updater"] floating enable
+  for_window [class="Pavucontrol"] floating enable
   for_window [class="Pavucontrol"] floating enable
   for_window [class="qt5ct"] floating enable sticky enable border normal
   for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
@@ -318,7 +321,7 @@
 ### 
   
   # New Terminal
-  bindsym $mod+Return exec terminal
+  bindsym $mod+Return exec termite
   
   # Move current window to the scratchpad
   bindsym $mod+Shift+minus move scratchpad
@@ -337,11 +340,11 @@
   bindsym $mod+z exec --no-startup-id morc_menu
   
   # Start Applications
-  bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
+  bindsym $mod+Ctrl+b exec termite -e 'bmenu'
   bindsym $mod+F2 exec google-chrome-stable
   bindsym $mod+F3 exec code
   bindsym $mod+ShiftF3 exec gksu code
-  bindsym $mod+F5 exec terminal -e 'ranger'
+  bindsym $mod+F5 exec termite -e 'ranger'
   bindsym $mod+Shift+F5 exec gksu pcmanfm
   bindsym $mod+F8 exec spotify
   bindsym $mod+F9 exec Slack
