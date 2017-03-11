@@ -1,6 +1,6 @@
 {
     "editor.fontSize": 17,
-    "editor.fontFamily": "'Operator Mono Medium', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily": "'Operator Mono Medium', 'Courier New', monospace",
     "fontshortcuts.defaultFontSize": 17,
     "terminal.integrated.fontSize": 17,
     "files.exclude": {
@@ -14,5 +14,8 @@
     "window.zoomLevel": 0,
     "editor.scrollBeyondLastLine": false,
     "workbench.colorTheme": "Atom One Dark",
-    "workbench.iconTheme": "vscode-great-icons"
+    "workbench.iconTheme": "vscode-great-icons",
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.fontLigatures": true
 }

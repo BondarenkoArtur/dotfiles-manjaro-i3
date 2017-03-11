@@ -34,5 +34,11 @@
 		"rootPath": "$home/Code/shutterstock-premier",
 		"paths": [],
 		"group": ""
+	},
+	{
+		"name": "pbv4",
+		"rootPath": "$home/Code/pbv4",
+		"paths": [],
+		"group": ""
 	}
 ]
