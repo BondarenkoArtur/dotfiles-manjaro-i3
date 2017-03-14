@@ -14,14 +14,14 @@
   set $bgtrans   #1f2126CC
   set $bglight   #404452
   set $fg        #5F6B85
-  set $fglight   #95A2BB
+  set $fglight   #ABB2BF
   set $white     #FFFFFF
   set $red     #E06C75
   set $green   #98C379
   set $yellow  #E5C07B
   set $blue    #56B6C2
   set $magenta #C678DD
-  set $cyan    #61AEEE
+  set $cyan    #61AFEF
 
   # Displays
   set $macbook "eDP1"
@@ -29,8 +29,8 @@
   set $external2 "DP2"
   
   # Gaps Defaults
-  set $default_gaps_inner 10
-  set $default_gaps_outer 5
+  set $default_gaps_inner 20
+  set $default_gaps_outer 0
 
 ###
 # General Configuration

@@ -56,10 +56,10 @@ Xft.lcdfilter:  lcddefault
 Xft.rgba:       rgb
 
 ! URXVT
-URxvt*font:                xft:Operator Mono Medium:size=13:antialias=true
-URxvt*boldFont:            xft:Operator Mono Bold:size=13:antialias=true
-URxvt*italicFont:          xft:Operator Mono Medium:style=Italic:size=13:antialias=true
-URxvt*boldItalicFont:      xft:Operator Mono Bold:style=Italic:size=13:antialias=true
+URxvt*font:                xft:Operator Mono Medium:size=12:antialias=true
+URxvt*boldFont:            xft:Operator Mono Bold:size=12:antialias=true
+URxvt*italicFont:          xft:Operator Mono Medium:style=Italic:size=12:antialias=true
+URxvt*boldItalicFont:      xft:Operator Mono Bold:style=Italic:size=12:antialias=true
 URxvt*letterSpace:         -1
 
 URxvt*boldMode:                      off
@@ -99,8 +99,9 @@ URxvt*color21:                        #eff1f5
 URxvt.internalBorder:      5
 URxvt.externalBorder:      0
 
-URxvt.scrollBar:           false
+URxvt.scrollBar:                      false
 URxvt*mouseWheelScrollPage:           false
+URxvt*cursorUnderline:                true
 URxvt*cursorBlink:                    true
 URxvt*saveLines:                      5000
 

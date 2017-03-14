@@ -1,6 +1,6 @@
 {
     "editor.fontSize": 17,
-    "editor.fontFamily": "'Operator Mono Medium', 'Courier New', monospace",
+    "editor.fontFamily": "'Operator Mono Medium', monospace",
     "fontshortcuts.defaultFontSize": 17,
     "terminal.integrated.fontSize": 17,
     "files.exclude": {
@@ -17,5 +17,7 @@
     "workbench.iconTheme": "vscode-great-icons",
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.visible": false
 }
