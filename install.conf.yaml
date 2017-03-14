@@ -19,6 +19,7 @@
     ~/.config/dunst: config/dunst
     ~/.config/fontconfig: config/fontconfig
     ~/.config/nitrogen: config/nitrogen
+    ~/.config/neofetch/config: config/neofetch/config
     ~/.config/mimeapps.list: config/mimeapps.list
     ~/.config/ranger/commands_full.py: config/ranger/commands_full.py
     ~/.config/ranger/commands.py: config/ranger/commands.py
