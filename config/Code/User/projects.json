@@ -40,5 +40,11 @@
 		"rootPath": "$home/Code/pbv4",
 		"paths": [],
 		"group": ""
+	},
+	{
+		"name": "shutterstock-audio-cms",
+		"rootPath": "$home/Code/shutterstock-audio-cms",
+		"paths": [],
+		"group": ""
 	}
 ]
