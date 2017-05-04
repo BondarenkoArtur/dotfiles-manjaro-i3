@@ -31,6 +31,8 @@
   # Gaps Defaults
   set $default_gaps_inner 20
   set $default_gaps_outer 0
+  set $large_gaps_inner 40
+  set $large_gaps_outer 100
 
 ###
 # General Configuration
@@ -221,6 +223,15 @@
   assign [class="Spotify"] $ws8
   for_window [class="Spotify"] move to workspace $ws8
 
+###
+# Workspaces - Default Gaps
+### 
+  workspace $ws4 gaps outer $large_gaps_outer
+  workspace $ws4 gaps inner $large_gaps_inner 
+  workspace $ws8 gaps outer $large_gaps_outer 
+  workspace $ws8 gaps inner $large_gaps_inner 
+  workspace $ws9 gaps outer $large_gaps_outer 
+  workspace $ws9 gaps inner $large_gaps_inner 
   
 ###
 # Key bindings - Windows
@@ -366,9 +377,9 @@
   bindsum $mod+F12 exec "xbacklight -inc 10; notify-send 'brightness up'"
   bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
   bindsum $mod+F11 exec "xbacklight -dec 10; notify-send 'brightness down'"
-  bindsym XF86AudioLowerVolume exec pulseaudio-ctl down 2
-  bindsym XF86AudioRaiseVolume exec pulseaudio-ctl up 2
-  bindsym XF86AudioMute exec pulseaudio-ctl mute
+  # bindsym XF86AudioLowerVolume exec pulseaudio-ctl down 2
+  # bindsym XF86AudioRaiseVolume exec pulseaudio-ctl up 2
+  # bindsym XF86AudioMute exec pulseaudio-ctl mute
   bindsym XF86AudioPlay exec playerctl play-pause
   bindsym XF86AudioPause exec playerctl pause
   bindsym XF86AudioNext exec playerctl next
@@ -484,7 +495,7 @@
 
 ###
 # Keyboard Configs
-### 
+###
 exec --no-startup-id xset r rate 200 60
 
 ###

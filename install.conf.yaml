@@ -29,6 +29,7 @@
     ~/.config/rofi: config/rofi
     ~/.config/polybar: config/polybar
     ~/.config/redshift.conf: config/redshift.conf
+    ~/.config/volumeicon: config/volumeicon
     ~/.i3: i3
     ~/.localrc: localrc
     ~/.oh-my-zsh/custom/fcote.zsh-theme: oh-my-zsh/custom/fcote.zsh-theme

@@ -58,7 +58,7 @@ font-1 = "Roboto Medium:size=11;3"
 inherit = bar
 bottom = true
 
-modules-left = filesystem memory cpu temperature wlan eth battery xkeyboard volume
+modules-left = filesystem memory cpu temperature wlan eth battery xkeyboard
 modules-center = music
 modules-right =
 
