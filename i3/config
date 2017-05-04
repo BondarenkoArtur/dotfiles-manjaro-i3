@@ -226,12 +226,12 @@
 ###
 # Workspaces - Default Gaps
 ### 
-  workspace $ws4 gaps outer $large_gaps_outer
-  workspace $ws4 gaps inner $large_gaps_inner 
-  workspace $ws8 gaps outer $large_gaps_outer 
-  workspace $ws8 gaps inner $large_gaps_inner 
-  workspace $ws9 gaps outer $large_gaps_outer 
-  workspace $ws9 gaps inner $large_gaps_inner 
+  # workspace $ws4 gaps outer $large_gaps_outer
+  # workspace $ws4 gaps inner $large_gaps_inner 
+  # workspace $ws8 gaps outer $large_gaps_outer 
+  # workspace $ws8 gaps inner $large_gaps_inner 
+  # workspace $ws9 gaps outer $large_gaps_outer 
+  # workspace $ws9 gaps inner $large_gaps_inner 
   
 ###
 # Key bindings - Windows
