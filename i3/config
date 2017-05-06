@@ -385,6 +385,9 @@
   bindsym XF86AudioNext exec playerctl next
   bindsym XF86AudioPrev exec playerctl previous
 
+###
+# Key Bindings - Local workspace Gaps quick shortcuts
+### 
 
 ###
 # Mode - Resize
