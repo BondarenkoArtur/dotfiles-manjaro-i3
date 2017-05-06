@@ -4,13 +4,13 @@ prompt_context() {
   if [[ -n "$SSH_CLIENT" ]]; then
       echo "%{$fg[yellow]%}%n%{$reset_color%} %{$fg[blue]%}@ %m%{$reset_color%} @ "
   else
-      # echo "%{$fg_bold[yellow]%}%n%{$reset_color%}"
+      # echo "%{$fg[yellow]%}%n%{$reset_color%}"
   fi
 }
 
 # Replace home folder by ~
 directory_name(){
-  echo "%{$fg_bold[blue]%}${PWD/#$HOME/~}/%\%{$reset_color%}"
+  echo "%{$fg[blue]%}${PWD/#$HOME/~}/%\%{$reset_color%}"
 }
 
 # Node version from NVM

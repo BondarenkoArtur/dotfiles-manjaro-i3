@@ -332,7 +332,8 @@
 ### 
   
   # New Terminal
-  bindsym $mod+Return exec terminal
+  #bindsym $mod+Return exec terminal
+  bindsym $mod+Return exec hyper
   
   # Move current window to the scratchpad
   bindsym $mod+Shift+minus move scratchpad
