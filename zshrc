@@ -38,10 +38,9 @@ source $ZSH/custom git_custom.zsh
 # Source Tmuxinator
 # source $HOME/.scripts/tmuxinator.zsh
 
-# TODO
-# antigen bundle zsh-users/zsh-syntax-highlighting
-# antigen bundle zsh-users/zsh-autosuggestions
-# antigen bundle tarrasch/zsh-autoenv
+# Auto-Highlighting and Auto-suggestions
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # fix "xdg-open fork-bomb" export your preferred browser from here
 export BROWSER=/usr/bin/google-chrome-stable
