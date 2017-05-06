@@ -62,10 +62,10 @@ URxvt*letterSpace:         -1
 
 URxvt*boldMode:                      off
 
-URxvt*cursorColor:                    #abb2bf
+URxvt*cursorColor:                    #5C6370
 URxvt*scrollColor:                    #dfe1e8
-URxvt*highlightColor:                 #65737e
-URxvt*highlightTextColor:             #c0c5ce
+URxvt*highlightColor:                 #e5c07b
+URxvt*highlightTextColor:             #282c34
 
 URxvt.internalBorder:      5
 URxvt.externalBorder:      0
