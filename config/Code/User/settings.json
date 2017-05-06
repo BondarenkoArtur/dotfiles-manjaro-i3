@@ -1,8 +1,9 @@
 {
-    "editor.fontSize": 17,
+    "editor.fontSize": 16,
     "editor.fontFamily": "'Operator Mono Medium', monospace",
-    "fontshortcuts.defaultFontSize": 17,
-    "terminal.integrated.fontSize": 17,
+    "editor.fontLigatures": true,
+    "fontshortcuts.defaultFontSize": 16,
+    "terminal.integrated.fontSize": 16,
     "files.exclude": {
         "**/.git": false,
         "**/.svn": true,
@@ -17,6 +18,5 @@
     "workbench.iconTheme": "vscode-great-icons",
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
-    "editor.fontLigatures": true,
     "workbench.activityBar.visible": true
 }

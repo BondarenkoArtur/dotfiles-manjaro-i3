@@ -46,12 +46,12 @@ XTerm*selectToClipboard: true
 
 ! XFT
 Xft.dpi:        96
-Xft.antialias:  true
-Xft.hinting:    true
-Xft.autohint:   false
+Xft.antialias:  1
+Xft.hinting:    1
 Xft.hintstyle:  hintslight
 Xft.lcdfilter:  lcddefault
 Xft.rgba:       rgb
+!Xft.autohint: 0
 
 ! URXVT
 URxvt*font:                xft:Operator Mono Medium:size=12:antialias=true
