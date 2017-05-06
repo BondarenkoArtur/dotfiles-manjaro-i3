@@ -18,5 +18,6 @@
     "workbench.iconTheme": "vscode-great-icons",
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
-    "workbench.activityBar.visible": true
+    "workbench.activityBar.visible": true,
+    "window.menuBarVisibility": "toggle"
 }
