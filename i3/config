@@ -211,7 +211,7 @@
 ### 
   assign [class="Firefox"] $ws1
   assign [class="Chromium"] $ws1
-  assign [class="Google-chrome"] $ws1
+  #assign [class="Google-chrome"] $ws1
   assign [class="Code"] $ws2
   assign [class="wmail"] $ws4
   assign [class="pamac-manager"] $ws10
@@ -386,10 +386,6 @@
   bindsym XF86AudioPrev exec playerctl previous
 
 ###
-# Key Bindings - Local workspace Gaps quick shortcuts
-### 
-
-###
 # Mode - Resize
 ### 
   set $mode_resize "  "
@@ -417,6 +413,18 @@
     bindsym Escape mode "default"
   }
 
+
+###
+# Key Bindings - Local workspace Gaps quick shortcuts. Much faster than the "Mode Gaps" below
+### 
+  
+  # Outer Gaps
+  bindcode $mod+35 gaps outer current plus 20
+  bindcode $mod+34 gaps outer current minus 20
+
+  # Inner Gaps
+  bindcode $mod+48 gaps inner current plus 20
+  bindcode $mod+47 gaps inner current minus 20
 
 ###
 # Mode - Gaps
