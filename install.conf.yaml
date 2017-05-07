@@ -6,13 +6,6 @@
 - clean: ['~']
 
 - link:
-    ~/.atom/config.cson: atom/config.cson
-    ~/.atom/init.coffee: atom/init.coffee
-    ~/.atom/keymap.cson: atom/keymap.cson
-    ~/.atom/packages-install-list.txt: atom/packages-install-list.txt
-    ~/.atom/projects.cson: atom/projects.cson
-    ~/.atom/snippets.cson: atom/snippets.cson
-    ~/.atom/styles.less: atom/styles.less
     ~/.config/Code/User/settings.json: config/Code/User/settings.json
     ~/.config/Code/User/projects.json: config/Code/User/projects.json
     ~/.config/compton.conf: config/compton.conf
@@ -30,7 +23,6 @@
     ~/.config/polybar: config/polybar
     ~/.config/redshift.conf: config/redshift.conf
     ~/.config/volumeicon: config/volumeicon
-    ~/.hyper.js: hyper.js
     ~/.i3: i3
     ~/.localrc: localrc
     ~/.oh-my-zsh/custom/fcote.zsh-theme: oh-my-zsh/custom/fcote.zsh-theme
