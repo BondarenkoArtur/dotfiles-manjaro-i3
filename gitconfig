@@ -8,7 +8,7 @@
 	branch = auto
 	ui = true
 [core]
-	editor = vi
+	editor = vim
 	excludesfile = ~/.gitignore
 [apply]
 	whitespace = nowarn

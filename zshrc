@@ -83,17 +83,9 @@ eval "$(pyenv virtualenv-init -)"
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
 
 # -----------------------------------------
-# EDITOR: vi.m, atom-beta, atom
+# EDITOR: vi
 # -----------------------------------------
-if [[ -n $SSH_CONNECTION ]]; then
-    export EDITOR='vim'
-else
-    if [ -x /usr/bin/atom-beta ]; then
-        export EDITOR='atom-beta'
-    else
-        export EDITOR='atom'
-    fi
-fi
+export EDITOR='vim'
 
 # source private stuff in a .localrc file
 if [[ -f $HOME/.localrc ]]; then
