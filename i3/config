@@ -346,7 +346,7 @@
 ### 
   
   # start program launcher
-  bindsym $mod+d exec --no-startup-id rofi -show drun
+  bindsym $mod+o exec --no-startup-id rofi -show drun
   # launch categorized menu
   bindsym $mod+z exec --no-startup-id morc_menu
   

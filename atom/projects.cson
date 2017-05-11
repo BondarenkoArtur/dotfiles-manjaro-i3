@@ -1,0 +1,113 @@
+[
+  {
+    title: "rocketstock"
+    paths: [
+      "/home/fcote/Code/rocketstock"
+    ]
+    icon: "icon-rocket"
+  }
+  {
+    title: "pbv3"
+    paths: [
+      "/home/fcote/Code/pbv3"
+    ]
+    icon: "icon-flame"
+  }
+  {
+    title: "pb-blog"
+    paths: [
+      "/home/fcote/Code/pb-blog"
+    ]
+    icon: "icon-flame"
+  }
+  {
+    title: "pb-api"
+    paths: [
+      "/home/fcote/Code/api"
+    ]
+    icon: "icon-flame"
+  }
+  {
+    title: "footage"
+    paths: [
+      "/home/fcote/Code/php-shutterstock-footage"
+    ]
+    icon: "icon-device-camera-video"
+  }
+  {
+    title: "shutterstock-mason"
+    paths: [
+      "/home/fcote/Code/shutterstock-mason"
+    ]
+    icon: "icon-device-camera-video"
+  }
+  {
+    title: "sstk"
+    paths: [
+      "/home/fcote/Code/sstk"
+    ]
+    icon: "icon-flame"
+  }
+  {
+    title: "audio"
+    paths: [
+      "/home/fcote/Code/shutterstock-audio"
+    ]
+    icon: "icon-rss"
+  }
+  {
+    title: "audio-api"
+    paths: [
+      "/home/fcote/Code/shutterstock-audio-api"
+    ]
+    icon: "icon-code"
+  }
+  {
+    title: "premier"
+    paths: [
+      "/home/fcote/Code/shutterstock-premier"
+    ]
+    icon: "icon-star"
+  }
+  {
+    title: "premier-api"
+    paths: [
+      "/home/fcote/Code/shutterstock-premier-api"
+    ]
+    icon: "icon-star"
+  }
+  {
+    title: "tarmac-cms"
+    paths: [
+      "/home/fcote/Code/tarmac-cms"
+    ]
+    icon: "icon-telescope"
+  }
+  {
+    title: "Configs"
+    paths: [
+      "/home/fcote/.dotfiles"
+      "/home/fcote/.ssh"
+      "/etc"
+    ]
+    icon: "icon-tools"
+  }
+  {
+    title: "Notes"
+    paths: [
+      "/home/fcote/Google Drive/Notes"
+    ]
+    icon: "icon-file-text"
+  }
+  {
+    title: "Shutterstock Audio Cms"
+    paths: [
+      "/home/fcote/Code/shutterstock-audio-cms"
+    ]
+  }
+  {
+    "*":
+      whitespace:
+        removeTrailingWhitespace: false
+  }
+]

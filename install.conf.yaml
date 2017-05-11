@@ -6,6 +6,13 @@
 - clean: ['~']
 
 - link:
+    ~/.atom/config.cson: atom/config.cson
+    ~/.atom/init.coffee: atom/init.coffee
+    ~/.atom/keymap.cson: atom/keymap.cson
+    ~/.atom/packages-install-list.txt: atom/packages-install-list.txt
+    ~/.atom/projects.cson: atom/projects.cson
+    ~/.atom/snippets.cson: atom/snippets.cson
+    ~/.atom/styles.less: atom/styles.less
     ~/.config/Code/User/settings.json: config/Code/User/settings.json
     ~/.config/Code/User/projects.json: config/Code/User/projects.json
     ~/.config/compton.conf: config/compton.conf

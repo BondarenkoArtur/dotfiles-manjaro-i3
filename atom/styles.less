@@ -1,0 +1,53 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+
+// Force use Operator Mono all of the Workspace
+atom-workspace {
+  // font-family: "Operator Mono";
+}
+
+// Bigger font size in Tree View, modals and bottom panel. I'm getting old.
+atom-panel {
+  font-size: 1.2em;
+}
+
+// Italic attributes for Operator Mono
+// ---------------------------------
+atom-text-editor .syntax--entity.syntax--other.syntax--attribute-name {
+  font-style: italic;
+}
+
+// Force Fira Code for ligatures
+// Operators, HTML Comments
+atom-text-editor .syntax--keyword.syntax--operator,
+atom-text-editor .syntax--storage.syntax--type.syntax--function.syntax--arrow.syntax--js,
+atom-text-editor .syntax--punctuation.syntax--definition.syntax--comment.syntax--html {
+  font-family: "Fira Code";
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+// Disable Ligatures on the line that the cursor is currently on
+atom-text-editor .cursor-line .syntax--keyword.syntax--operator,
+atom-text-editor .cursor-line .syntax--punctuation.syntax--definition.syntax--comment.syntax--html {
+  // text-rendering: auto;
+}
+
+// Hightlight Selected
+// Make it more subtle, prettier.
+.atom-text-editor {
+  // Box 
+  .highlights .highlight-selected .region {
+    border-color: #666666;
+  }
+  // Background 
+  .highlights .highlight-selected.background .region {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
