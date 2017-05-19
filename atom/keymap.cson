@@ -53,3 +53,7 @@
 # (conflicts with toggle Project Symbols)
 'atom-text-editor:not([mini])':
     'cmd-shift-r': 'unset!'
+
+# Force Emmet on Ctrl-e for jsx files
+'atom-text-editor[data-grammar="source js jsx"]:not([mini])':
+  'ctrl-e': 'emmet:expand-abbreviation-with-tab'

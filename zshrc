@@ -85,7 +85,15 @@ eval "$(pyenv virtualenv-init -)"
 # -----------------------------------------
 # EDITOR: vi
 # -----------------------------------------
-export EDITOR='vim'
+if [[ -n $SSH_CONNECTION ]]; then
+    export EDITOR='vim'
+else
+    if [ -x /usr/local/bin/atom ]; then
+        export EDITOR='atom'
+    else
+        export EDITOR='vim'
+    fi
+fi
 
 # source private stuff in a .localrc file
 if [[ -f $HOME/.localrc ]]; then

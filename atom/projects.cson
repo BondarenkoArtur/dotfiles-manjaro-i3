@@ -84,9 +84,15 @@
     icon: "icon-telescope"
   }
   {
-    title: "Configs"
+    title: "dotfiles"
     paths: [
       "/home/fcote/.dotfiles"
+    ],
+    icon: "icon-tools"
+  }
+  {
+    title: "Configs"
+    paths: [
       "/home/fcote/.ssh"
       "/etc"
     ]

@@ -30,6 +30,7 @@ atom-text-editor .syntax--keyword.syntax--operator,
 atom-text-editor .syntax--storage.syntax--type.syntax--function.syntax--arrow.syntax--js,
 atom-text-editor .syntax--punctuation.syntax--definition.syntax--comment.syntax--html {
   font-family: "Fira Code";
+  font-weight: 500;
   font-style: normal;
   text-rendering: optimizeLegibility;
 }
@@ -41,12 +42,12 @@ atom-text-editor .cursor-line .syntax--punctuation.syntax--definition.syntax--co
 
 // Hightlight Selected
 // Make it more subtle, prettier.
-.atom-text-editor {
-  // Box 
+atom-text-editor {
+  // Box
   .highlights .highlight-selected .region {
-    border-color: #666666;
+    border-color: rgba(255, 255, 255, 0.2);
   }
-  // Background 
+  // Background
   .highlights .highlight-selected.background .region {
     background-color: rgba(255, 255, 255, 0.1);
   }
