@@ -24,7 +24,7 @@
   set $cyan    #61AFEF
 
   # Displays
-  set $macbook "eDP1"
+  set $macbook "LVDS"
   set $external1 "DP-2"
   set $external2 "DP2"
   
@@ -51,10 +51,9 @@
 # Styling - General
 ### 
   
-  font xft:Droid Sans 9
   hide_edge_borders none
-  #smart_gaps on
-  #smart_borders on
+  smart_gaps on
+  smart_borders on
   
   # Gaps
   gaps inner $default_gaps_inner
@@ -494,11 +493,18 @@
 ###
 # Mode - Keyboard Layout Switch
 ### 
-  set $keyboardMode " [f]r [e]n"
+  set $keyboardMode " [1]en [2]ru [3]ua"
   bindsym $mod+Escape mode $keyboardMode
   mode $keyboardMode {
-    bindsym f exec "setxkbmap ca multi", mode "default"
     bindsym e exec "setxkbmap us", mode "default"
+    bindsym r exec "setxkbmap ru", mode "default"
+    bindsym u exec "setxkbmap ua", mode "default"
+    bindsym у exec "setxkbmap us", mode "default"
+    bindsym к exec "setxkbmap ru", mode "default"
+    bindsym г exec "setxkbmap ua", mode "default"
+    bindsym 1 exec "setxkbmap us", mode "default"
+    bindsym 2 exec "setxkbmap ru", mode "default"
+    bindsym 3 exec "setxkbmap ua", mode "default"
     # back to normal: Enter or Escape
     bindsym Return mode "default"
     bindsym Escape mode "default"

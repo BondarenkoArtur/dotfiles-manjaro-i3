@@ -54,11 +54,8 @@ Xft.rgba:       rgb
 !Xft.autohint: 0
 
 ! URXVT
-URxvt*font:                xft:Operator Mono Medium:size=12:antialias=true
-URxvt*boldFont:            xft:Operator Mono Bold:size=12:antialias=true
-URxvt*italicFont:          xft:Operator Mono Medium:style=Italic:size=12:antialias=true
-URxvt*boldItalicFont:      xft:Operator Mono Bold:style=Italic:size=12:antialias=true
-URxvt*letterSpace:         -1
+URxvt.font:      -xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso10646-1
+URxvt.bold.font: -xos4-terminus-bold-r-normal--12-120-72-72-c-60-iso10646-1
 
 URxvt*boldMode:                      off
 

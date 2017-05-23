@@ -32,7 +32,6 @@
     ~/.config/volumeicon: config/volumeicon
     ~/.i3: i3
     ~/.localrc: localrc
-    ~/.oh-my-zsh/custom/fcote.zsh-theme: oh-my-zsh/custom/fcote.zsh-theme
     ~/.oh-my-zsh/custom/git_custom.zsh: oh-my-zsh/custom/git_custom.zsh
     ~/.oh-my-zsh/custom/plugins/fcote: oh-my-zsh/custom/plugins/fcote
     ~/.tmuxinator: tmuxinator
@@ -49,7 +48,6 @@
     ~/.zshrc: zshrc
 
 - shell:
-  - chmod +x bin/* bin_private/* i3/blocks/*
-  - chmod +x bin/* bin_private/* i3/blocks/*
+  - chmod +x bin/* i3/blocks/*
   - chmod +x oh-my-zsh/custom/plugins/fcote/bin/*
   - chmod +x oh-my-zsh/custom/plugins/fcote/bin/lib/*

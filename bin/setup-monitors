@@ -1,6 +1,6 @@
 #!/bin/sh
 
-laptop="eDP1"
+laptop="LVDS"
 external1="DP1"
 external2="DP2"
 hdmi="HDMI1"
@@ -30,3 +30,4 @@ else
   xrandr --dpi 168
 
 fi
+
